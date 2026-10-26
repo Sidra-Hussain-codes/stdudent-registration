@@ -1,1 +1,1 @@
-# stdudent-registeration
+# stdudent-registration
