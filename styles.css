@@ -1,0 +1,148 @@
+/* ===== New styling (Post-Lab Task 2) ===== */
+body {
+  background-color: #e8f0fe;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #1a4fa3;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 4px solid #1a4fa3;
+  display: inline-block;
+  padding-bottom: 8px;
+  text-shadow: 2px 2px 4px #b0c4e8;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1a4fa3;
+  display: block;
+  margin: 20px auto;
+}
+
+form {
+  width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #1a4fa3;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 14px 0;
+  border: 1px solid #888;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #1a4fa3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: #1a4fa3;
+  font-weight: bold;
+}
+
+/* ===== Your old styles ===== */
+p {
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+#title {
+  color: green;
+  font-size: 28px;
+}
+
+.card {
+  border: 2px solid #1a4fa3;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #1a4fa3;
+  padding: 20px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.hero {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 120px;
+  border: 2px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 10px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid navy;
+  padding: 20px;
+  text-align: center;
+}
